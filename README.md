@@ -20,11 +20,13 @@ vote.  If four candidates (A, B, C, and D) are running and a person ranks A
 first, C second, and D third, the vote would be input as "ACD".  This infers
 that the candidate votes "no confidence" for candidate C.
 
-### Tally Function: This computes the winner of the election according to
+### Tally Function: 
+This computes the winner of the election according to
 Instant-Runoff Voting.  Ties in the candidate to eliminate are broken by Irish
 rules.
 
-### Score Function: This computes a ranking of the candidates. It operates as
+### Score Function: 
+This computes a ranking of the candidates. It operates as
 follows:
 
 First it eliminates all candidates that received less than a majority of the
