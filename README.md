@@ -10,7 +10,7 @@ Run the script with:
 Once running, you have access to the following commands:
 
 - /begin This resets all voting structures for a new vote
-- /remove This removes the most recently added vote, useful for mess ups
+- /delete This removes the most recently added vote, useful for mess ups
 - /score This computes the ranking of candidates based off the score approach
   below
 - /tally this computes the winner with Instant-Runoff Voting
