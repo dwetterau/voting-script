@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) < 2:
-  print "Usage: python votemaster.py <number_of_voters>"
+  print "Usage: python vote.py <number_of_voters>"
   sys.exit(1)
 
 totalVoters = int(sys.argv[1])
