@@ -18,7 +18,7 @@ Once running, you have access to the following commands:
 To add a vote, simply type in a string of characters denoting the ranking of a
 vote.  If four candidates (A, B, C, and D) are running and a person ranks A
 first, C second, and D third, the vote would be input as "ACD".  This infers
-that the candidate votes "no confidence" for candidate C.
+that the candidate votes "no confidence" for candidate D.
 
 ### Tally Function: 
 This computes the winner of the election according to

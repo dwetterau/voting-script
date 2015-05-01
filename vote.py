@@ -72,7 +72,11 @@ def tally():
         minSelections = [selection]
       elif amount == minAmount:
         minSelections.append(selection)
-    
+   
+    # There is no minSelection to eliminate, we must be done.
+    if not minSelections:
+      break
+
     minSelection = minSelections[0]
     if len(minSelections) > 1:
       # We have a tie for the minimum selection, we will use Irish rules.
