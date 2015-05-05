@@ -1,4 +1,4 @@
-LAN Election Voting
+Election Voting
 ====================
 
 ## Operation:
